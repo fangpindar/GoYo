@@ -1,0 +1,1037 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EFADE09BB8C53C76A1C9000 /* Pods_GoYoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE03875139F1012CD78612E6 /* Pods_GoYoTests.framework */; };
+		70A5B3B66156FC6E1381D6C4 /* Pods_GoYo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77DC29A484F3D9D6CBC027CB /* Pods_GoYo.framework */; };
+		A802673C2A1F30AA0062F40E /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802673B2A1F30AA0062F40E /* ArticleViewController.swift */; };
+		A802673E2A1F30CD0062F40E /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802673D2A1F30CD0062F40E /* MemoryViewController.swift */; };
+		A80267402A1F30E60062F40E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802673F2A1F30E60062F40E /* ProfileViewController.swift */; };
+		A8062B282A259DA100D31EE4 /* MemoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8062B272A259DA100D31EE4 /* MemoryTableViewCell.swift */; };
+		A8062B2A2A25A05B00D31EE4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8062B292A25A05B00D31EE4 /* UIColor+Extension.swift */; };
+		A8062B2C2A25A3E800D31EE4 /* AddMemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8062B2B2A25A3E800D31EE4 /* AddMemoryViewController.swift */; };
+		A80694EC2A3ACC0B006D9CFF /* walkingdog.json in Resources */ = {isa = PBXBuildFile; fileRef = A80694EA2A3ACC0B006D9CFF /* walkingdog.json */; };
+		A80694EF2A3ACC2F006D9CFF /* levelup.json in Resources */ = {isa = PBXBuildFile; fileRef = A80694EE2A3ACC2F006D9CFF /* levelup.json */; };
+		A81644502A2731BC005B6834 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A816444F2A2731BC005B6834 /* CommentViewController.swift */; };
+		A81644522A27398D005B6834 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81644512A27398D005B6834 /* CommentTableViewCell.swift */; };
+		A827085D2A1F76BF006291BB /* AddArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A827085C2A1F76BF006291BB /* AddArticleViewController.swift */; };
+		A82FC4322A204C7900DD863B /* ChosePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82FC4312A204C7900DD863B /* ChosePhotoViewController.swift */; };
+		A8361C412A3DC84000416A67 /* PolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8361C402A3DC84000416A67 /* PolicyViewController.swift */; };
+		A8410B892A38992300B4F09A /* HomePage.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A8410B882A38992300B4F09A /* HomePage.mp4 */; };
+		A85552312A21AFF100954062 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85552302A21AFF100954062 /* AuthViewController.swift */; };
+		A85552332A21B89C00954062 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A85552322A21B89C00954062 /* GoogleService-Info.plist */; };
+		A8596E092A234FE4002FD357 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8596E082A234FE4002FD357 /* ArticleTableViewCell.swift */; };
+		A8596E0D2A235602002FD357 /* Date+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8596E0C2A235602002FD357 /* Date+extension.swift */; };
+		A8596E112A237435002FD357 /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A8596E102A237435002FD357 /* YOLOv3.mlmodel */; };
+		A88BDE9F2A1E0437006A778B /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BDE9E2A1E0437006A778B /* FilterViewController.swift */; };
+		A88BDEA22A1E08E5006A778B /* CustomFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BDEA12A1E08E5006A778B /* CustomFilter.swift */; };
+		A88BDEA42A1E0E84006A778B /* FilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BDEA32A1E0E84006A778B /* FilterCollectionViewCell.swift */; };
+		A88BDEA62A1E17FE006A778B /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BDEA52A1E17FE006A778B /* UIImage+Extension.swift */; };
+		A88BDEA82A1E1902006A778B /* CIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BDEA72A1E1902006A778B /* CIImage+Extension.swift */; };
+		A892FF9F2A28328C00C20505 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A892FF9E2A28328C00C20505 /* ArticleDetailViewController.swift */; };
+		A89AAA672A4979B70001E598 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89AAA662A4979B70001E598 /* UIView+Extension.swift */; };
+		A8A10DA32A2EDAE700D1EED0 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A10DA22A2EDAE700D1EED0 /* SettingViewController.swift */; };
+		A8A10DA52A2EDFF000D1EED0 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A10DA42A2EDFF000D1EED0 /* SettingTableViewCell.swift */; };
+		A8A58DE72A1C7939001A2D9B /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A58DE62A1C7939001A2D9B /* SceneKit.framework */; };
+		A8AD77FD2A31CD4D00C816A4 /* PetListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD77FC2A31CD4D00C816A4 /* PetListTableViewCell.swift */; };
+		A8AD77FF2A31CFDF00C816A4 /* PetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD77FE2A31CFDF00C816A4 /* PetListViewController.swift */; };
+		A8ADA2E62A31F32300120012 /* AddPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ADA2E52A31F32300120012 /* AddPetViewController.swift */; };
+		A8AE60BA2A23C2CC00A1AC7C /* WalkDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AE60B92A23C2CC00A1AC7C /* WalkDoneViewController.swift */; };
+		A8B318D72A1DA99E0071E524 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B318D62A1DA99E0071E524 /* CameraViewController.swift */; };
+		A8B8C3BE2A2483E1001E2844 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B8C3BD2A2483E1001E2844 /* UIImageView+Extension.swift */; };
+		A8BE3DF02A177817000926B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE3DEF2A177817000926B2 /* AppDelegate.swift */; };
+		A8BE3DF22A177817000926B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE3DF12A177817000926B2 /* SceneDelegate.swift */; };
+		A8BE3DF42A177817000926B2 /* WalkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE3DF32A177817000926B2 /* WalkingViewController.swift */; };
+		A8BE3DF72A177817000926B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BE3DF52A177817000926B2 /* Main.storyboard */; };
+		A8BE3DFA2A177817000926B2 /* GoYo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8BE3DF82A177817000926B2 /* GoYo.xcdatamodeld */; };
+		A8BE3DFC2A177818000926B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BE3DFB2A177818000926B2 /* Assets.xcassets */; };
+		A8BE3DFF2A177818000926B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BE3DFD2A177818000926B2 /* LaunchScreen.storyboard */; };
+		A8CFB2942A1F0647000DB500 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CFB2932A1F0647000DB500 /* PreviewView.swift */; };
+		A8CFB2962A1F07CA000DB500 /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CFB2952A1F07CA000DB500 /* UIStoryboard+Extension.swift */; };
+		A8CFB2992A1F0835000DB500 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CFB2982A1F0835000DB500 /* BaseTabBarController.swift */; };
+		A8CFB29C2A1F2FD0000DB500 /* Article.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CFB29B2A1F2FD0000DB500 /* Article.storyboard */; };
+		A8CFB29F2A1F2FE6000DB500 /* Walking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CFB29E2A1F2FE6000DB500 /* Walking.storyboard */; };
+		A8CFB2A22A1F3005000DB500 /* Memory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CFB2A12A1F3005000DB500 /* Memory.storyboard */; };
+		A8CFB2A52A1F3012000DB500 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CFB2A42A1F3012000DB500 /* Profile.storyboard */; };
+		A8D34E142A4A69AE00DB836D /* GoYoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D34E132A4A69AE00DB836D /* GoYoTests.swift */; };
+		A8E12A452A30257100B30693 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E12A442A30257100B30693 /* ReportViewController.swift */; };
+		A8E12A472A303B8900B30693 /* CustomBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E12A462A303B8900B30693 /* CustomBlock.swift */; };
+		A8E12A492A30650C00B30693 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E12A482A30650C00B30693 /* FollowViewController.swift */; };
+		A8E83BD52A1F8A7C0081AC47 /* AddArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E83BD42A1F8A7C0081AC47 /* AddArticleTableViewCell.swift */; };
+		A8E83BD72A1F8CC30081AC47 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E83BD62A1F8CC30081AC47 /* Article.swift */; };
+		A8E83BD92A1F8CE20081AC47 /* AddArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E83BD82A1F8CE20081AC47 /* AddArticleViewModel.swift */; };
+		A8E83BDD2A1F92510081AC47 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E83BDC2A1F92510081AC47 /* PhotoCollectionViewCell.swift */; };
+		A8F220422A34A6490047ADFF /* dogWalking.json in Resources */ = {isa = PBXBuildFile; fileRef = A8F220412A34A6490047ADFF /* dogWalking.json */; };
+		A8F220442A34A68F0047ADFF /* StartWalkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F220432A34A68F0047ADFF /* StartWalkingViewController.swift */; };
+		A8F82E0C2A37486A00738D5B /* waiting.json in Resources */ = {isa = PBXBuildFile; fileRef = A8F82E0A2A37486A00738D5B /* waiting.json */; };
+		A8F82E0D2A37486A00738D5B /* shiba.json in Resources */ = {isa = PBXBuildFile; fileRef = A8F82E0B2A37486A00738D5B /* shiba.json */; };
+		A8F947EB2A386CED00D756E6 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = A8F947EA2A386CED00D756E6 /* loading.json */; };
+		A8F947ED2A386D0200D756E6 /* LoadingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F947EC2A386D0200D756E6 /* LoadingUtil.swift */; };
+		A8F947EF2A3872E100D756E6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F947EE2A3872E100D756E6 /* UIViewController+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8D34E152A4A69AE00DB836D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8BE3DE42A177817000926B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8BE3DEB2A177817000926B2;
+			remoteInfo = GoYo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		334DAFF727373957377D67CC /* Pods-GoYoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoYoTests.release.xcconfig"; path = "Target Support Files/Pods-GoYoTests/Pods-GoYoTests.release.xcconfig"; sourceTree = "<group>"; };
+		45ADB6B9603DCB19F5AF0D25 /* Pods-GoYo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoYo.debug.xcconfig"; path = "Target Support Files/Pods-GoYo/Pods-GoYo.debug.xcconfig"; sourceTree = "<group>"; };
+		77DC29A484F3D9D6CBC027CB /* Pods_GoYo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoYo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9228D1F0A87A073915ADD46B /* Pods-GoYo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoYo.release.xcconfig"; path = "Target Support Files/Pods-GoYo/Pods-GoYo.release.xcconfig"; sourceTree = "<group>"; };
+		A802673B2A1F30AA0062F40E /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		A802673D2A1F30CD0062F40E /* MemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
+		A802673F2A1F30E60062F40E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A8062B272A259DA100D31EE4 /* MemoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryTableViewCell.swift; sourceTree = "<group>"; };
+		A8062B292A25A05B00D31EE4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A8062B2B2A25A3E800D31EE4 /* AddMemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoryViewController.swift; sourceTree = "<group>"; };
+		A80694EA2A3ACC0B006D9CFF /* walkingdog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = walkingdog.json; sourceTree = "<group>"; };
+		A80694EE2A3ACC2F006D9CFF /* levelup.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = levelup.json; sourceTree = "<group>"; };
+		A816444F2A2731BC005B6834 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		A81644512A27398D005B6834 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		A827085C2A1F76BF006291BB /* AddArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddArticleViewController.swift; sourceTree = "<group>"; };
+		A82FC4312A204C7900DD863B /* ChosePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosePhotoViewController.swift; sourceTree = "<group>"; };
+		A8361C402A3DC84000416A67 /* PolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyViewController.swift; sourceTree = "<group>"; };
+		A83918F72A49BA2600C3CCCA /* GoYoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoYoTests.swift; sourceTree = "<group>"; };
+		A8410B882A38992300B4F09A /* HomePage.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HomePage.mp4; sourceTree = "<group>"; };
+		A85552302A21AFF100954062 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		A85552322A21B89C00954062 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8596E082A234FE4002FD357 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		A8596E0C2A235602002FD357 /* Date+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+extension.swift"; sourceTree = "<group>"; };
+		A8596E102A237435002FD357 /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
+		A881F66E2A33249E0062DC19 /* GoYo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoYo.entitlements; sourceTree = "<group>"; };
+		A88BDE9E2A1E0437006A778B /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		A88BDEA12A1E08E5006A778B /* CustomFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFilter.swift; sourceTree = "<group>"; };
+		A88BDEA32A1E0E84006A778B /* FilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		A88BDEA52A1E17FE006A778B /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		A88BDEA72A1E1902006A778B /* CIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CIImage+Extension.swift"; sourceTree = "<group>"; };
+		A892FF9E2A28328C00C20505 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
+		A89AAA662A4979B70001E598 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		A8A10DA22A2EDAE700D1EED0 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		A8A10DA42A2EDFF000D1EED0 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		A8A58DE62A1C7939001A2D9B /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		A8AD77FC2A31CD4D00C816A4 /* PetListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListTableViewCell.swift; sourceTree = "<group>"; };
+		A8AD77FE2A31CFDF00C816A4 /* PetListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListViewController.swift; sourceTree = "<group>"; };
+		A8ADA2E52A31F32300120012 /* AddPetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetViewController.swift; sourceTree = "<group>"; };
+		A8AE60B92A23C2CC00A1AC7C /* WalkDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkDoneViewController.swift; sourceTree = "<group>"; };
+		A8B318D62A1DA99E0071E524 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		A8B8C3BD2A2483E1001E2844 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		A8BE3DEC2A177817000926B2 /* GoYo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoYo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BE3DEF2A177817000926B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8BE3DF12A177817000926B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8BE3DF32A177817000926B2 /* WalkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingViewController.swift; sourceTree = "<group>"; };
+		A8BE3DF62A177817000926B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8BE3DF92A177817000926B2 /* GoYo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoYo.xcdatamodel; sourceTree = "<group>"; };
+		A8BE3DFB2A177818000926B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8BE3DFE2A177818000926B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8BE3E002A177818000926B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CFB2932A1F0647000DB500 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		A8CFB2952A1F07CA000DB500 /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		A8CFB2982A1F0835000DB500 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		A8CFB29B2A1F2FD0000DB500 /* Article.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Article.storyboard; sourceTree = "<group>"; };
+		A8CFB29E2A1F2FE6000DB500 /* Walking.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Walking.storyboard; sourceTree = "<group>"; };
+		A8CFB2A12A1F3005000DB500 /* Memory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Memory.storyboard; sourceTree = "<group>"; };
+		A8CFB2A42A1F3012000DB500 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		A8D34E112A4A69AE00DB836D /* GoYoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoYoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D34E132A4A69AE00DB836D /* GoYoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoYoTests.swift; sourceTree = "<group>"; };
+		A8E12A442A30257100B30693 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		A8E12A462A303B8900B30693 /* CustomBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBlock.swift; sourceTree = "<group>"; };
+		A8E12A482A30650C00B30693 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		A8E83BD42A1F8A7C0081AC47 /* AddArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddArticleTableViewCell.swift; sourceTree = "<group>"; };
+		A8E83BD62A1F8CC30081AC47 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		A8E83BD82A1F8CE20081AC47 /* AddArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddArticleViewModel.swift; sourceTree = "<group>"; };
+		A8E83BDC2A1F92510081AC47 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		A8F220412A34A6490047ADFF /* dogWalking.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dogWalking.json; sourceTree = "<group>"; };
+		A8F220432A34A68F0047ADFF /* StartWalkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWalkingViewController.swift; sourceTree = "<group>"; };
+		A8F82E0A2A37486A00738D5B /* waiting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = waiting.json; sourceTree = "<group>"; };
+		A8F82E0B2A37486A00738D5B /* shiba.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shiba.json; sourceTree = "<group>"; };
+		A8F947EA2A386CED00D756E6 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		A8F947EC2A386D0200D756E6 /* LoadingUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingUtil.swift; sourceTree = "<group>"; };
+		A8F947EE2A3872E100D756E6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		BD00F5920EDC6B5392CA61EB /* Pods-GoYoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoYoTests.debug.xcconfig"; path = "Target Support Files/Pods-GoYoTests/Pods-GoYoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE03875139F1012CD78612E6 /* Pods_GoYoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoYoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8BE3DE92A177817000926B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A58DE72A1C7939001A2D9B /* SceneKit.framework in Frameworks */,
+				70A5B3B66156FC6E1381D6C4 /* Pods_GoYo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D34E0E2A4A69AE00DB836D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFADE09BB8C53C76A1C9000 /* Pods_GoYoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A83918F62A49BA2600C3CCCA /* GoYoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A83918F72A49BA2600C3CCCA /* GoYoTests.swift */,
+			);
+			path = GoYoTests;
+			sourceTree = "<group>";
+		};
+		A847535B2A1B9C5000C022BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8CFB2972A1F0820000DB500 /* Base */,
+				A8CFB29A2A1F2FC5000DB500 /* Article */,
+				A8CFB28D2A1F051E000DB500 /* Walking */,
+				A8CFB2A02A1F3000000DB500 /* Memory */,
+				A8CFB2A32A1F300E000DB500 /* Profile */,
+				A8CFB2912A1F05E8000DB500 /* Filter */,
+				A8CFB2902A1F05DF000DB500 /* Camera */,
+				A8BE3DF52A177817000926B2 /* Main.storyboard */,
+				A8CFB29B2A1F2FD0000DB500 /* Article.storyboard */,
+				A8CFB29E2A1F2FE6000DB500 /* Walking.storyboard */,
+				A8CFB2A12A1F3005000DB500 /* Memory.storyboard */,
+				A8CFB2A42A1F3012000DB500 /* Profile.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A89E7F5A2A34805A00C7D7B7 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				A8F947EA2A386CED00D756E6 /* loading.json */,
+				A8F82E0B2A37486A00738D5B /* shiba.json */,
+				A8F82E0A2A37486A00738D5B /* waiting.json */,
+				A8F220412A34A6490047ADFF /* dogWalking.json */,
+				A80694EA2A3ACC0B006D9CFF /* walkingdog.json */,
+				A80694EE2A3ACC2F006D9CFF /* levelup.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		A8B318D82A1DE01E0071E524 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A8596E0C2A235602002FD357 /* Date+extension.swift */,
+				A8CFB2952A1F07CA000DB500 /* UIStoryboard+Extension.swift */,
+				A88BDEA52A1E17FE006A778B /* UIImage+Extension.swift */,
+				A88BDEA72A1E1902006A778B /* CIImage+Extension.swift */,
+				A8B8C3BD2A2483E1001E2844 /* UIImageView+Extension.swift */,
+				A8062B292A25A05B00D31EE4 /* UIColor+Extension.swift */,
+				A8F947EE2A3872E100D756E6 /* UIViewController+Extension.swift */,
+				A89AAA662A4979B70001E598 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A8BE3DE32A177817000926B2 = {
+			isa = PBXGroup;
+			children = (
+				A8BE3DEE2A177817000926B2 /* GoYo */,
+				A83918F62A49BA2600C3CCCA /* GoYoTests */,
+				A8D34E122A4A69AE00DB836D /* GoYoTests */,
+				A8BE3DED2A177817000926B2 /* Products */,
+				EC77697D49F10D12CA7E2A6D /* Pods */,
+				F1293B96ECECE951FD146D5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8BE3DED2A177817000926B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE3DEC2A177817000926B2 /* GoYo.app */,
+				A8D34E112A4A69AE00DB836D /* GoYoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8BE3DEE2A177817000926B2 /* GoYo */ = {
+			isa = PBXGroup;
+			children = (
+				A8F82E0E2A37522E00738D5B /* Video */,
+				A89E7F5A2A34805A00C7D7B7 /* Lottie */,
+				A881F66E2A33249E0062DC19 /* GoYo.entitlements */,
+				A8596E102A237435002FD357 /* YOLOv3.mlmodel */,
+				A8B318D82A1DE01E0071E524 /* Extension */,
+				A8CFB2922A1F0607000DB500 /* Utils */,
+				A8CFB28F2A1F05BE000DB500 /* Model */,
+				A847535B2A1B9C5000C022BB /* View */,
+				A8CFB28E2A1F05B1000DB500 /* ViewModel */,
+				A8BE3DEF2A177817000926B2 /* AppDelegate.swift */,
+				A8BE3DF12A177817000926B2 /* SceneDelegate.swift */,
+				A8BE3DFB2A177818000926B2 /* Assets.xcassets */,
+				A8BE3DFD2A177818000926B2 /* LaunchScreen.storyboard */,
+				A8BE3E002A177818000926B2 /* Info.plist */,
+				A85552322A21B89C00954062 /* GoogleService-Info.plist */,
+				A8BE3DF82A177817000926B2 /* GoYo.xcdatamodeld */,
+			);
+			path = GoYo;
+			sourceTree = "<group>";
+		};
+		A8CFB28D2A1F051E000DB500 /* Walking */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE3DF32A177817000926B2 /* WalkingViewController.swift */,
+				A8AE60B92A23C2CC00A1AC7C /* WalkDoneViewController.swift */,
+				A8F220432A34A68F0047ADFF /* StartWalkingViewController.swift */,
+			);
+			path = Walking;
+			sourceTree = "<group>";
+		};
+		A8CFB28E2A1F05B1000DB500 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8E83BD82A1F8CE20081AC47 /* AddArticleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8CFB28F2A1F05BE000DB500 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8E83BD62A1F8CC30081AC47 /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8CFB2902A1F05DF000DB500 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				A8CFB2932A1F0647000DB500 /* PreviewView.swift */,
+				A8B318D62A1DA99E0071E524 /* CameraViewController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		A8CFB2912A1F05E8000DB500 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				A88BDE9E2A1E0437006A778B /* FilterViewController.swift */,
+				A88BDEA32A1E0E84006A778B /* FilterCollectionViewCell.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		A8CFB2922A1F0607000DB500 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A88BDEA12A1E08E5006A778B /* CustomFilter.swift */,
+				A8E12A462A303B8900B30693 /* CustomBlock.swift */,
+				A8F947EC2A386D0200D756E6 /* LoadingUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A8CFB2972A1F0820000DB500 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A8CFB2982A1F0835000DB500 /* BaseTabBarController.swift */,
+				A85552302A21AFF100954062 /* AuthViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A8CFB29A2A1F2FC5000DB500 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				A802673B2A1F30AA0062F40E /* ArticleViewController.swift */,
+				A8596E082A234FE4002FD357 /* ArticleTableViewCell.swift */,
+				A827085C2A1F76BF006291BB /* AddArticleViewController.swift */,
+				A8E83BD42A1F8A7C0081AC47 /* AddArticleTableViewCell.swift */,
+				A8E83BDC2A1F92510081AC47 /* PhotoCollectionViewCell.swift */,
+				A82FC4312A204C7900DD863B /* ChosePhotoViewController.swift */,
+				A816444F2A2731BC005B6834 /* CommentViewController.swift */,
+				A81644512A27398D005B6834 /* CommentTableViewCell.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		A8CFB2A02A1F3000000DB500 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				A802673D2A1F30CD0062F40E /* MemoryViewController.swift */,
+				A8062B272A259DA100D31EE4 /* MemoryTableViewCell.swift */,
+				A8062B2B2A25A3E800D31EE4 /* AddMemoryViewController.swift */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		A8CFB2A32A1F300E000DB500 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A802673F2A1F30E60062F40E /* ProfileViewController.swift */,
+				A892FF9E2A28328C00C20505 /* ArticleDetailViewController.swift */,
+				A8A10DA22A2EDAE700D1EED0 /* SettingViewController.swift */,
+				A8A10DA42A2EDFF000D1EED0 /* SettingTableViewCell.swift */,
+				A8E12A442A30257100B30693 /* ReportViewController.swift */,
+				A8E12A482A30650C00B30693 /* FollowViewController.swift */,
+				A8AD77FC2A31CD4D00C816A4 /* PetListTableViewCell.swift */,
+				A8AD77FE2A31CFDF00C816A4 /* PetListViewController.swift */,
+				A8ADA2E52A31F32300120012 /* AddPetViewController.swift */,
+				A8361C402A3DC84000416A67 /* PolicyViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A8D34E122A4A69AE00DB836D /* GoYoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8D34E132A4A69AE00DB836D /* GoYoTests.swift */,
+			);
+			path = GoYoTests;
+			sourceTree = "<group>";
+		};
+		A8F82E0E2A37522E00738D5B /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				A8410B882A38992300B4F09A /* HomePage.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		EC77697D49F10D12CA7E2A6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45ADB6B9603DCB19F5AF0D25 /* Pods-GoYo.debug.xcconfig */,
+				9228D1F0A87A073915ADD46B /* Pods-GoYo.release.xcconfig */,
+				BD00F5920EDC6B5392CA61EB /* Pods-GoYoTests.debug.xcconfig */,
+				334DAFF727373957377D67CC /* Pods-GoYoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1293B96ECECE951FD146D5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8A58DE62A1C7939001A2D9B /* SceneKit.framework */,
+				77DC29A484F3D9D6CBC027CB /* Pods_GoYo.framework */,
+				DE03875139F1012CD78612E6 /* Pods_GoYoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8BE3DEB2A177817000926B2 /* GoYo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BE3E032A177818000926B2 /* Build configuration list for PBXNativeTarget "GoYo" */;
+			buildPhases = (
+				3EB064E35331338A643D5078 /* [CP] Check Pods Manifest.lock */,
+				A8BE3DE82A177817000926B2 /* Sources */,
+				A8BE3DE92A177817000926B2 /* Frameworks */,
+				A8BE3DEA2A177817000926B2 /* Resources */,
+				A8B5E6332A1779CA00AFEFC1 /* ShellScript */,
+				5002606CC9C9885949BE4CD5 /* [CP] Embed Pods Frameworks */,
+				A88CA5812A41DB6200272341 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoYo;
+			productName = GoYo;
+			productReference = A8BE3DEC2A177817000926B2 /* GoYo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8D34E102A4A69AE00DB836D /* GoYoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D34E172A4A69AE00DB836D /* Build configuration list for PBXNativeTarget "GoYoTests" */;
+			buildPhases = (
+				6B3B4D329D43547A641A1339 /* [CP] Check Pods Manifest.lock */,
+				A8D34E0D2A4A69AE00DB836D /* Sources */,
+				A8D34E0E2A4A69AE00DB836D /* Frameworks */,
+				A8D34E0F2A4A69AE00DB836D /* Resources */,
+				514E17E013D2B94C85B7DF93 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8D34E162A4A69AE00DB836D /* PBXTargetDependency */,
+			);
+			name = GoYoTests;
+			productName = GoYoTests;
+			productReference = A8D34E112A4A69AE00DB836D /* GoYoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8BE3DE42A177817000926B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A8BE3DEB2A177817000926B2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A8D34E102A4A69AE00DB836D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A8BE3DEB2A177817000926B2;
+					};
+				};
+			};
+			buildConfigurationList = A8BE3DE72A177817000926B2 /* Build configuration list for PBXProject "GoYo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8BE3DE32A177817000926B2;
+			productRefGroup = A8BE3DED2A177817000926B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8BE3DEB2A177817000926B2 /* GoYo */,
+				A8D34E102A4A69AE00DB836D /* GoYoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8BE3DEA2A177817000926B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F82E0C2A37486A00738D5B /* waiting.json in Resources */,
+				A8F82E0D2A37486A00738D5B /* shiba.json in Resources */,
+				A8F947EB2A386CED00D756E6 /* loading.json in Resources */,
+				A8F220422A34A6490047ADFF /* dogWalking.json in Resources */,
+				A80694EF2A3ACC2F006D9CFF /* levelup.json in Resources */,
+				A8BE3DFF2A177818000926B2 /* LaunchScreen.storyboard in Resources */,
+				A80694EC2A3ACC0B006D9CFF /* walkingdog.json in Resources */,
+				A8CFB2A22A1F3005000DB500 /* Memory.storyboard in Resources */,
+				A8CFB2A52A1F3012000DB500 /* Profile.storyboard in Resources */,
+				A8BE3DFC2A177818000926B2 /* Assets.xcassets in Resources */,
+				A8CFB29C2A1F2FD0000DB500 /* Article.storyboard in Resources */,
+				A85552332A21B89C00954062 /* GoogleService-Info.plist in Resources */,
+				A8CFB29F2A1F2FE6000DB500 /* Walking.storyboard in Resources */,
+				A8410B892A38992300B4F09A /* HomePage.mp4 in Resources */,
+				A8BE3DF72A177817000926B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D34E0F2A4A69AE00DB836D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EB064E35331338A643D5078 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoYo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5002606CC9C9885949BE4CD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoYo/Pods-GoYo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoYo/Pods-GoYo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoYo/Pods-GoYo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		514E17E013D2B94C85B7DF93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoYoTests/Pods-GoYoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoYoTests/Pods-GoYoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoYoTests/Pods-GoYoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B3B4D329D43547A641A1339 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoYoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A88CA5812A41DB6200272341 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+		A8B5E6332A1779CA00AFEFC1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8BE3DE82A177817000926B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88BDEA82A1E1902006A778B /* CIImage+Extension.swift in Sources */,
+				A8BE3DF42A177817000926B2 /* WalkingViewController.swift in Sources */,
+				A8B8C3BE2A2483E1001E2844 /* UIImageView+Extension.swift in Sources */,
+				A8CFB2962A1F07CA000DB500 /* UIStoryboard+Extension.swift in Sources */,
+				A8E12A472A303B8900B30693 /* CustomBlock.swift in Sources */,
+				A892FF9F2A28328C00C20505 /* ArticleDetailViewController.swift in Sources */,
+				A8596E112A237435002FD357 /* YOLOv3.mlmodel in Sources */,
+				A88BDEA22A1E08E5006A778B /* CustomFilter.swift in Sources */,
+				A8CFB2942A1F0647000DB500 /* PreviewView.swift in Sources */,
+				A88BDE9F2A1E0437006A778B /* FilterViewController.swift in Sources */,
+				A81644502A2731BC005B6834 /* CommentViewController.swift in Sources */,
+				A80267402A1F30E60062F40E /* ProfileViewController.swift in Sources */,
+				A8062B2A2A25A05B00D31EE4 /* UIColor+Extension.swift in Sources */,
+				A8596E0D2A235602002FD357 /* Date+extension.swift in Sources */,
+				A8E83BD52A1F8A7C0081AC47 /* AddArticleTableViewCell.swift in Sources */,
+				A8BE3DF02A177817000926B2 /* AppDelegate.swift in Sources */,
+				A88BDEA42A1E0E84006A778B /* FilterCollectionViewCell.swift in Sources */,
+				A8596E092A234FE4002FD357 /* ArticleTableViewCell.swift in Sources */,
+				A8F947EF2A3872E100D756E6 /* UIViewController+Extension.swift in Sources */,
+				A88BDEA62A1E17FE006A778B /* UIImage+Extension.swift in Sources */,
+				A8E83BDD2A1F92510081AC47 /* PhotoCollectionViewCell.swift in Sources */,
+				A8E12A452A30257100B30693 /* ReportViewController.swift in Sources */,
+				A8361C412A3DC84000416A67 /* PolicyViewController.swift in Sources */,
+				A8F220442A34A68F0047ADFF /* StartWalkingViewController.swift in Sources */,
+				A8E83BD72A1F8CC30081AC47 /* Article.swift in Sources */,
+				A802673E2A1F30CD0062F40E /* MemoryViewController.swift in Sources */,
+				A8E83BD92A1F8CE20081AC47 /* AddArticleViewModel.swift in Sources */,
+				A8ADA2E62A31F32300120012 /* AddPetViewController.swift in Sources */,
+				A89AAA672A4979B70001E598 /* UIView+Extension.swift in Sources */,
+				A8E12A492A30650C00B30693 /* FollowViewController.swift in Sources */,
+				A8AE60BA2A23C2CC00A1AC7C /* WalkDoneViewController.swift in Sources */,
+				A8A10DA32A2EDAE700D1EED0 /* SettingViewController.swift in Sources */,
+				A8AD77FD2A31CD4D00C816A4 /* PetListTableViewCell.swift in Sources */,
+				A81644522A27398D005B6834 /* CommentTableViewCell.swift in Sources */,
+				A802673C2A1F30AA0062F40E /* ArticleViewController.swift in Sources */,
+				A85552312A21AFF100954062 /* AuthViewController.swift in Sources */,
+				A8062B282A259DA100D31EE4 /* MemoryTableViewCell.swift in Sources */,
+				A8B318D72A1DA99E0071E524 /* CameraViewController.swift in Sources */,
+				A8062B2C2A25A3E800D31EE4 /* AddMemoryViewController.swift in Sources */,
+				A8CFB2992A1F0835000DB500 /* BaseTabBarController.swift in Sources */,
+				A82FC4322A204C7900DD863B /* ChosePhotoViewController.swift in Sources */,
+				A8BE3DF22A177817000926B2 /* SceneDelegate.swift in Sources */,
+				A8BE3DFA2A177817000926B2 /* GoYo.xcdatamodeld in Sources */,
+				A8F947ED2A386D0200D756E6 /* LoadingUtil.swift in Sources */,
+				A8A10DA52A2EDFF000D1EED0 /* SettingTableViewCell.swift in Sources */,
+				A827085D2A1F76BF006291BB /* AddArticleViewController.swift in Sources */,
+				A8AD77FF2A31CFDF00C816A4 /* PetListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D34E0D2A4A69AE00DB836D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D34E142A4A69AE00DB836D /* GoYoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8D34E162A4A69AE00DB836D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8BE3DEB2A177817000926B2 /* GoYo */;
+			targetProxy = A8D34E152A4A69AE00DB836D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8BE3DF52A177817000926B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BE3DF62A177817000926B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8BE3DFD2A177818000926B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BE3DFE2A177818000926B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8BE3E012A177818000926B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8BE3E022A177818000926B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8BE3E042A177818000926B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45ADB6B9603DCB19F5AF0D25 /* Pods-GoYo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GoYo/GoYo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 37LDHF3FZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoYo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "開啟相機功能才能拍照上傳";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "開啟定位功能才能記錄散步狀況";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "開啟定位功能才能記錄散步狀況";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "開啟錄音功能才能錄影上傳";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "開啟相冊功能才能上傳照片";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinstar.GoYo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A8BE3E052A177818000926B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9228D1F0A87A073915ADD46B /* Pods-GoYo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GoYo/GoYo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37LDHF3FZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoYo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "開啟相機功能才能拍照上傳";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "開啟定位功能才能記錄散步狀況";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "開啟定位功能才能記錄散步狀況";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "開啟錄音功能才能錄影上傳";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "開啟相冊功能才能上傳照片";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinstar.GoYo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A8D34E182A4A69AE00DB836D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD00F5920EDC6B5392CA61EB /* Pods-GoYoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37LDHF3FZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinstar.GoYoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoYo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoYo";
+			};
+			name = Debug;
+		};
+		A8D34E192A4A69AE00DB836D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 334DAFF727373957377D67CC /* Pods-GoYoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37LDHF3FZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinstar.GoYoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoYo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoYo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8BE3DE72A177817000926B2 /* Build configuration list for PBXProject "GoYo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BE3E012A177818000926B2 /* Debug */,
+				A8BE3E022A177818000926B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BE3E032A177818000926B2 /* Build configuration list for PBXNativeTarget "GoYo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BE3E042A177818000926B2 /* Debug */,
+				A8BE3E052A177818000926B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D34E172A4A69AE00DB836D /* Build configuration list for PBXNativeTarget "GoYoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D34E182A4A69AE00DB836D /* Debug */,
+				A8D34E192A4A69AE00DB836D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8BE3DF82A177817000926B2 /* GoYo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A8BE3DF92A177817000926B2 /* GoYo.xcdatamodel */,
+			);
+			currentVersion = A8BE3DF92A177817000926B2 /* GoYo.xcdatamodel */;
+			path = GoYo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8BE3DE42A177817000926B2 /* Project object */;
+}
