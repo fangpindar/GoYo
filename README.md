@@ -22,3 +22,7 @@
 - Firebase
 - lottie-ios
 - YOLOv3
+
+安裝方式
+-------------
+- 將此份專案下載完畢後，請至https://developer.apple.com/machine-learning/models/ 下載YOLOv3.mlmodel，並將檔案放置於/GoYo/GoYo資料夾中
