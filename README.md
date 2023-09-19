@@ -20,20 +20,25 @@
 <img width="200" src="https://github.com/fangpindar/GoYo/blob/main/Image/Frame%206.png" />
 </div>
 <br />
-
+<div style="display: inline-block">
 <img width="200" src="https://github.com/fangpindar/GoYo/blob/main/Image/Frame%207.png" />
 <img width="200" src="https://github.com/fangpindar/GoYo/blob/main/Image/Frame%208.png" />
 <img width="200" src="https://github.com/fangpindar/GoYo/blob/main/Image/Frame%209.png" />
+</div>
 <br />
 
+<div style="display: inline-block">
 <img width="200" src="https://github.com/fangpindar/GoYo/blob/main/Image/Frame%201.png" />
 <img width="200" src="https://github.com/fangpindar/GoYo/blob/main/Image/Frame%202.png" />
 <img width="200" src="https://github.com/fangpindar/GoYo/blob/main/Image/Frame%203.png" />
+</div>
 <br />
 
+<div style="display: inline-block">
 <img width="200" src="https://github.com/fangpindar/GoYo/blob/main/Image/Frame%2010.png" />
 <img width="200" src="https://github.com/fangpindar/GoYo/blob/main/Image/Frame%2011.png" />
 <img width="200" src="https://github.com/fangpindar/GoYo/blob/main/Image/Frame%2012.png" />
+</div>
 <br />
 此App使用到以下第三方套件及第三方資料集
 -------------
