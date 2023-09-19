@@ -14,7 +14,7 @@
 - 事件提醒：手動新增欲提醒的事件，可針對各個狗寶貝們設定事件，也可自行使用ColorPicker自定義標籤顏色，並可設定相關週期性(ex: 每週、每月)，搭配地端Notification進行提醒，不錯過狗寶貝的任何重要的事情。
 - 行事曆：透過第三方套件FSCalendar，以行事曆方式呈現，一覽近期的重要事件提醒，並適時的做修正與新增。
 
-![image](https://github.com/fangpindar/GoYo/blob/main/Image/Frame%201.png)
+<img width="200" src="https://github.com/fangpindar/GoYo/blob/main/Image/Frame%201.png" />
 此App使用到以下第三方套件及第三方資料集
 -------------
 - SwiftLint
